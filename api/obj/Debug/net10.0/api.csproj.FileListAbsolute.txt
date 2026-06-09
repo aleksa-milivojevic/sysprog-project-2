@@ -1,0 +1,8 @@
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.csproj.AssemblyReference.cache
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.GeneratedMSBuildEditorConfig.editorconfig
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.AssemblyInfoInputs.cache
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.AssemblyInfo.cs
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.csproj.CoreCompileInputs.cache
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.MvcApplicationPartsAssemblyInfo.cs
+/home/aleksa/sysprog/project-2/api/obj/Debug/net10.0/api.MvcApplicationPartsAssemblyInfo.cache

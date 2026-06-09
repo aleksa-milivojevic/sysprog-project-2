@@ -1,0 +1,3 @@
+Razvoj veštačke inteligencije u poslednjoj deceniji transformisao je način na koji pristupamo analizi podataka.
+Algoritmi mašinskog učenja sada mogu predvideti trendove na tržištu sa neverovatnom preciznošću,
+koristeći ogromne količine informacija koje se generišu svake sekunde.

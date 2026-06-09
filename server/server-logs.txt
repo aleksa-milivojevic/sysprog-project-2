@@ -1,0 +1,195 @@
+[Server] [05/06/2026 21:16:47] Starting up!
+Token
+[Server] [08/06/2026 17:30:36] Starting up!
+Token
+[Server] [08/06/2026 18:16:12] Starting up!
+Token
+[Server] [08/06/2026 18:16:26] Starting up!
+Token
+[Server] [08/06/2026 18:25:19] Starting up!
+[Server] [08/06/2026 18:25:57] Starting up!
+[Server] [08/06/2026 18:26:46] Starting up!
+[Server] [08/06/2026 18:28:26] Starting up!
+[Listener] [$08/06/2026 18:28:26] Listening...
+[Server] [08/06/2026 18:29:10] Starting up!
+[Listener] [$08/06/2026 18:29:10] Listening...
+[Listener] [$08/06/2026 18:29:30] Caught a request!
+[Server] [08/06/2026 18:30:02] Starting up!
+[Listener] [$08/06/2026 18:30:02] Listening...
+[Listener] [$08/06/2026 18:30:07] Caught a request!
+[Server] [08/06/2026 19:00:43] Starting up!
+[Listener] [08/06/2026 19:00:44] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 19:00:52] Caught a request!
+[Listener] [$08/06/2026 19:00:52] Caught a request!
+[Listener] [$08/06/2026 19:01:00] Caught a request!
+[Listener] [$08/06/2026 19:01:16] Caught a request!
+[Listener] [$08/06/2026 19:01:25] Caught a request!
+[Server] [08/06/2026 19:17:31] Starting up!
+[Listener] [08/06/2026 19:17:31] Listening on http://localhost:5050/
+[Server] [08/06/2026 19:17:35] SIGINT called
+[Server] [08/06/2026 19:17:35] Shutting down gracefuly...
+[Server] [08/06/2026 19:17:44] Starting up!
+[Listener] [08/06/2026 19:17:44] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 19:17:51] Caught a request!
+[Listener] [$08/06/2026 19:18:02] Caught a request!
+[Server] [08/06/2026 19:19:18] SIGINT called
+[Server] [08/06/2026 19:19:18] Shutting down gracefuly...
+[Server] [08/06/2026 20:30:12] Starting up!
+[Listener] [08/06/2026 20:30:12] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 20:30:16] Caught a request!
+[Server] [08/06/2026 20:30:25] SIGINT called
+[Server] [08/06/2026 20:30:25] Shutting down gracefuly...
+[Server] [08/06/2026 20:31:15] Starting up!
+[Listener] [08/06/2026 20:31:15] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 20:31:17] Caught a request!
+[Server] [08/06/2026 20:31:21] SIGINT called
+[Server] [08/06/2026 20:31:21] Shutting down gracefuly...
+[Server] [08/06/2026 20:37:08] Starting up!
+[Listener] [08/06/2026 20:37:08] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 20:37:12] Caught a request!
+[Server] [08/06/2026 20:37:20] SIGINT called
+[Server] [08/06/2026 20:37:20] Shutting down gracefuly...
+[Server] [08/06/2026 20:48:46] Starting up!
+[Listener] [08/06/2026 20:48:46] Listening on http://localhost:5050/
+[Server] [08/06/2026 20:49:08] SIGINT called
+[Server] [08/06/2026 20:49:08] Shutting down gracefuly...
+[Server] [08/06/2026 21:03:49] Starting up!
+[Listener] [08/06/2026 21:03:49] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 21:03:54] Caught a request!
+[Listener] [$08/06/2026 21:04:00] Caught a request!
+[Listener] [$08/06/2026 21:04:07] Caught a request!
+[Server] [08/06/2026 21:04:16] SIGINT called
+[Server] [08/06/2026 21:04:16] Shutting down gracefuly...
+[Server] [08/06/2026 22:29:16] Starting up!
+[Listener] [08/06/2026 22:29:16] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:29:37] Caught a request!
+[Listener] [$08/06/2026 22:29:49] Caught a request!
+[Listener] [$08/06/2026 22:29:49] Caught a request!
+[Listener] [$08/06/2026 22:29:54] Caught a request!
+[Listener] [$08/06/2026 22:29:55] Caught a request!
+[Listener] [$08/06/2026 22:29:55] Caught a request!
+[Listener] [$08/06/2026 22:29:56] Caught a request!
+[Listener] [$08/06/2026 22:30:05] Caught a request!
+[Listener] [$08/06/2026 22:30:06] Caught a request!
+[Listener] [$08/06/2026 22:30:06] Caught a request!
+[Listener] [$08/06/2026 22:30:07] Caught a request!
+[Listener] [$08/06/2026 22:30:07] Caught a request!
+[Listener] [$08/06/2026 22:30:07] Caught a request!
+[Listener] [$08/06/2026 22:30:08] Caught a request!
+[Server] [08/06/2026 22:30:12] SIGINT called
+[Server] [08/06/2026 22:30:12] Shutting down gracefuly...
+[Server] [08/06/2026 22:31:05] Starting up!
+[Listener] [08/06/2026 22:31:05] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:31:07] Caught a request!
+[Listener] [$08/06/2026 22:31:08] Caught a request!
+[Listener] [$08/06/2026 22:31:09] Caught a request!
+[Listener] [$08/06/2026 22:31:10] Caught a request!
+[Listener] [$08/06/2026 22:31:10] Caught a request!
+[Listener] [$08/06/2026 22:31:10] Caught a request!
+[Listener] [$08/06/2026 22:31:11] Caught a request!
+[Listener] [$08/06/2026 22:31:11] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:12] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:13] Caught a request!
+[Listener] [$08/06/2026 22:31:14] Caught a request!
+[Listener] [$08/06/2026 22:31:14] Caught a request!
+[Server] [08/06/2026 22:31:54] SIGINT called
+[Server] [08/06/2026 22:31:54] Shutting down gracefuly...
+[Server] [08/06/2026 22:31:59] Starting up!
+[Listener] [08/06/2026 22:31:59] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:32:04] Caught a request!
+[Listener] [$08/06/2026 22:32:10] Caught a request!
+[Listener] [$08/06/2026 22:32:10] Caught a request!
+[Listener] [$08/06/2026 22:32:10] Caught a request!
+[Listener] [$08/06/2026 22:32:11] Caught a request!
+[Listener] [$08/06/2026 22:32:23] Caught a request!
+[Server] [08/06/2026 22:32:38] SIGINT called
+[Server] [08/06/2026 22:32:38] Shutting down gracefuly...
+[Server] [08/06/2026 22:33:18] Starting up!
+[Listener] [08/06/2026 22:33:18] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:33:21] Caught a request!
+[Listener] [$08/06/2026 22:33:26] Caught a request!
+[Listener] [$08/06/2026 22:33:28] Caught a request!
+[Listener] [$08/06/2026 22:33:29] Caught a request!
+[Listener] [$08/06/2026 22:33:29] Caught a request!
+[Server] [08/06/2026 22:33:58] SIGINT called
+[Server] [08/06/2026 22:33:58] Shutting down gracefuly...
+[Server] [08/06/2026 22:34:33] Starting up!
+[Listener] [08/06/2026 22:34:33] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:34:36] Caught a request!
+[Listener] [$08/06/2026 22:34:37] Caught a request!
+[Listener] [$08/06/2026 22:34:38] Caught a request!
+[Listener] [$08/06/2026 22:34:38] Caught a request!
+[Listener] [$08/06/2026 22:34:44] Caught a request!
+[Listener] [$08/06/2026 22:34:44] Caught a request!
+[Listener] [$08/06/2026 22:34:44] Caught a request!
+[Listener] [$08/06/2026 22:34:57] Caught a request!
+[Listener] [$08/06/2026 22:34:57] Caught a request!
+[Listener] [$08/06/2026 22:34:58] Caught a request!
+[Listener] [$08/06/2026 22:35:05] Caught a request!
+[Listener] [$08/06/2026 22:35:05] Caught a request!
+[Listener] [$08/06/2026 22:35:06] Caught a request!
+[Listener] [$08/06/2026 22:35:06] Caught a request!
+[Listener] [$08/06/2026 22:35:06] Caught a request!
+[Listener] [$08/06/2026 22:35:07] Caught a request!
+[Server] [08/06/2026 22:35:35] SIGINT called
+[Server] [08/06/2026 22:35:35] Shutting down gracefuly...
+[Server] [08/06/2026 22:37:47] Starting up!
+[Listener] [08/06/2026 22:37:47] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:37:55] Caught a request!
+
+[Server] [08/06/2026 22:38:02] SIGINT called
+[Server] [08/06/2026 22:38:02] Shutting down gracefuly...
+[Server] [08/06/2026 22:45:01] Starting up!
+[Server] [08/06/2026 22:45:37] Starting up!
+[Server] [08/06/2026 22:50:46] Starting up!
+[Server] [08/06/2026 22:52:16] Starting up!
+[Listener] [08/06/2026 22:52:16] Starting on Task 1
+[Dispatcher] [08/06/2026 22:52:16] Starting on Task 3
+[Shutdown] [08/06/2026 22:52:16] Waiting for shutdown request on Task 2
+[Listener] [08/06/2026 22:52:16] Listening on http://localhost:5050/
+[Listener] [$08/06/2026 22:52:30] Caught a request!
+[Listener] [$08/06/2026 22:52:35] Caught a request!
+[Listener] [$08/06/2026 22:52:36] Caught a request!
+[Listener] [$08/06/2026 22:52:36] Caught a request!
+[Listener] [$08/06/2026 22:52:36] Caught a request!
+[Listener] [$08/06/2026 22:52:36] Caught a request!
+[Listener] [$08/06/2026 22:52:36] Caught a request!
+[Listener] [$08/06/2026 22:52:37] Caught a request!
+[Listener] [$08/06/2026 22:52:37] Caught a request!
+[Listener] [$08/06/2026 22:52:37] Caught a request!
+
+[Server] [08/06/2026 22:52:54] SIGINT called
+[Server] [08/06/2026 22:52:54] Shutting down gracefuly...
+[Server] [09/06/2026 11:11:27] Starting up!
+[Listener] [09/06/2026 11:11:27] Starting on Task 2
+[Shutdown] [09/06/2026 11:11:27] Waiting for shutdown request on Task 1
+[Dispatcher] [09/06/2026 11:11:27] Starting on Task 3
+[Listener] [09/06/2026 11:11:27] Listening on http://localhost:5050/
+[Listener] [$09/06/2026 11:11:34] Caught a request!
+[Listener] [$09/06/2026 11:11:39] Caught a request!
+[Listener] [$09/06/2026 11:11:45] Caught a request!
+[Listener] [$09/06/2026 11:11:51] Caught a request!
+[Listener] [$09/06/2026 11:11:53] Caught a request!
+[Listener] [$09/06/2026 11:11:53] Caught a request!
+[Listener] [$09/06/2026 11:11:53] Caught a request!
+[Listener] [$09/06/2026 11:11:53] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+[Listener] [$09/06/2026 11:11:54] Caught a request!
+
+[Server] [09/06/2026 11:12:01] SIGINT called
+[Server] [09/06/2026 11:12:01] Shutting down gracefuly...
