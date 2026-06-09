@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aleksa/sysprog/project-2/api/api.csproj": {}
+    "/home/aleksa/sysprog-project-2/api/api.csproj": {}
   },
   "projects": {
-    "/home/aleksa/sysprog/project-2/api/api.csproj": {
+    "/home/aleksa/sysprog-project-2/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aleksa/sysprog/project-2/api/api.csproj",
+        "projectUniqueName": "/home/aleksa/sysprog-project-2/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/home/aleksa/sysprog/project-2/api/api.csproj",
+        "projectPath": "/home/aleksa/sysprog-project-2/api/api.csproj",
         "packagesPath": "/home/aleksa/.nuget/packages/",
-        "outputPath": "/home/aleksa/sysprog/project-2/api/obj/",
+        "outputPath": "/home/aleksa/sysprog-project-2/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aleksa/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
             }
           },
           "imports": [

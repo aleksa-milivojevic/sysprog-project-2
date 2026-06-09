@@ -193,3 +193,12 @@ Token
 
 [Server] [09/06/2026 11:12:01] SIGINT called
 [Server] [09/06/2026 11:12:01] Shutting down gracefuly...
+[Server] [6/9/2026 10:22:04 PM] Starting up!
+[Shutdown] [6/9/2026 10:22:04 PM] Waiting for shutdown request on Task 1
+[Listener] [6/9/2026 10:22:04 PM] Starting on Task 2
+[Dispatcher] [6/9/2026 10:22:04 PM] Starting on Task 3
+[Listener] [6/9/2026 10:22:04 PM] Listening on http://localhost:5050/
+[Listener] [$6/9/2026 10:22:43 PM] Caught a request!
+
+[Server] [6/9/2026 10:24:05 PM] SIGINT called
+[Server] [6/9/2026 10:24:05 PM] Shutting down gracefuly...

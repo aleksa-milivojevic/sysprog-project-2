@@ -1,0 +1,12 @@
+[Server] [6/9/2026 10:21:33 PM] Starting up!
+[Listener] [6/9/2026 10:21:33 PM] Starting on Task 1
+[Shutdown] [6/9/2026 10:21:33 PM] Waiting for shutdown request on Task 2
+[Dispatcher] [6/9/2026 10:21:33 PM] Starting on Task 3
+[Listener] [6/9/2026 10:21:33 PM] Listening on http://localhost:5000/
+[Listener] [$6/9/2026 10:22:42 PM] Caught a request!
+[Task $3] [6/9/2026 10:22:42 PM] Started for file: 'f1.txt'
+[Thread] [6/9/2026 10:22:42 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [6/9/2026 10:24:06 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5050))
+
+[Server] [6/9/2026 10:24:10 PM] SIGINT called
+[Server] [6/9/2026 10:24:10 PM] Shutting down gracefuly...

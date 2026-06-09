@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using Utility;
 using Memory; 
 
-namespace Service
+namespace Services
 {
     class ApiService {
 
@@ -16,7 +16,11 @@ namespace Service
         
         private readonly HttpListener _listener;
 
-        private readonly string _hostUrl = "http://localhost:5050/";
+        private HttpClient _client;
+
+        private readonly string _baseUrl = "http://localhost:5050/";
+
+        private readonly string _hostUrl = "http://localhost:5000/";
 
         private List<HttpListenerContext> _contexts;
 
@@ -27,16 +31,23 @@ namespace Service
         private List<Task> _tasks;
 
         private readonly Logger _logger;
+
+        private CacheMemory _cache;
+
+        private Dictionary<string, CacheLockObject> _queuedFiles;
         
-        public Server() {
+        public ApiService() {
             _cts = new CancellationTokenSource();
             _listener = new HttpListener();
             _listener.Prefixes.Add(_hostUrl);
+            _client = new HttpClient();
             _contexts = new List<HttpListenerContext>();
             _reqSem = new SemaphoreSlim(0);
             _reqLock = new object();
             _tasks = new List<Task>(_task_limit);
             _logger = new Logger();
+            _cache = new CacheMemory();
+            _queuedFiles = new Dictionary<string, CacheLockObject>();
         }
 
         public async Task Run() {
@@ -61,7 +72,7 @@ namespace Service
                     
                     _reqSem.Release();
 
-                    _logger.Log($"[Listener] [${DateTime.Now}] Caught a request!");
+                    _logger.Log($"[Listener] [{DateTime.Now}] Caught a request!");
                 }
             }, token);
 
@@ -114,53 +125,62 @@ namespace Service
                 return;
             }
             
-            _logger.Log($"[Task ${Task.CurrentId}] [{DateTime.Now}] Started for file: '{file}'");
-            JObject cacheHit;
+            _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] Started for file: '{file}'");
+            JObject? cacheHit;
 
-            if (_cache.Get(file, out cacheHit)) {
+            cacheHit = _cache.Get(file).Result;
+            if (cacheHit != null) {
                 _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
                 Respond(file, cacheHit, response);
                 return;
             }
 
-            Monitor.Enter(_cacheLock);
+            if (_queuedFiles.ContainsKey(file)) { // zahtevi koji cekaju upis u cache
+                _queuedFiles[file].Tasks++;
+                Monitor.Enter(_queuedFiles[file].Lock);
 
-            if (_cache.Get(file, out cacheHit)) {
+                cacheHit = _cache.Get(file).Result;
                 _logger.Log($"[Thread] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
                 Respond(file, cacheHit, response);
-                Monitor.Exit(_cacheLock);
-                return;
+
+                _queuedFiles[file].Tasks--;
+                if (_queuedFiles[file].Tasks == 0)
+                    _queuedFiles.Remove(file);
+                Monitor.Exit(_queuedFiles[file].Lock);
+                
             }
+            else { //prvi zahtev koji upisuje u cache
+                _queuedFiles.Add(file, new CacheLockObject());
+                Monitor.Enter(_queuedFiles[file].Lock);
 
-            _logger.Log($"[Thread] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
+                _logger.Log($"[Thread] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
 
-            string url = $"{_baseUrl}{file}";
+                string url = $"{_baseUrl}{file}";
 
-            try {
-                HttpResponseMessage serverResponse = _client.GetAsync(url).Result;
-                string body = serverResponse.Content.ReadAsStringAsync().Result;
-                JObject result = JObject.Parse(body);
+                try {
+                    HttpResponseMessage serverResponse = _client.GetAsync(url).Result;
+                    string body = serverResponse.Content.ReadAsStringAsync().Result;
+                    JObject result = JObject.Parse(body);
 
-                _cache.Set(file, result);
-                _logger.Log($"[Thread] [{DateTime.Now}] Result stored in cache for query: '{file}'");
+                    await _cache.Set(file, result);
+                    _logger.Log($"[Thread] [{DateTime.Now}] Result stored in cache for query: '{file}'");
 
-                Respond(file, result, response);
+                    Respond(file, result, response);
+                }
+                catch (Exception ex) {
+                    _logger.Log($"[Thread] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
+                    Respond(file, new JObject(), response);
+                }
+                finally {
+                    Monitor.Exit(_queuedFiles[file].Lock);
+                }
             }
-            catch (Exception ex) {
-                _logger.Log($"[Thread] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
-                Respond(file, new JObject(), response);
-            }
-            finally {
-                Monitor.Exit(_cacheLock);
-            }
-
-            _sem.Release();
         }
 
-        private void Respond(string file, JObject result, HttpListenerResponse response) {
+        private void Respond(string file, JObject? result, HttpListenerResponse response) {
             FileUtility writer = new FileUtility();
             byte[] buffer;
-            if (!result.HasValues) {
+            if (result == null || !result.HasValues) {
                 buffer = System.Text.Encoding.UTF8.GetBytes($"Something went wrong");
             }
             else {

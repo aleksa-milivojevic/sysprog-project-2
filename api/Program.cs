@@ -8,9 +8,9 @@ namespace MainSpace
 {
     public class Program
     {
-        static void Main(string[] args) {
+        static async Task Main(string[] args) {
             ApiService service = new ApiService();
-            service.Start();
+            await service.Run();
         }
     }
 }
