@@ -202,3 +202,99 @@ Token
 
 [Server] [6/9/2026 10:24:05 PM] SIGINT called
 [Server] [6/9/2026 10:24:05 PM] Shutting down gracefuly...
+[Server] [10/06/2026 10:32:09] Starting up!
+[Listener] [10/06/2026 10:32:09] Starting on Task 2
+[Shutdown] [10/06/2026 10:32:09] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 10:32:09] Starting on Task 3
+[Listener] [10/06/2026 10:32:09] Listening on http://localhost:5050/
+[Listener] [$10/06/2026 10:33:24] Caught a request!
+[Listener] [$10/06/2026 10:33:25] Caught a request!
+[Listener] [$10/06/2026 10:34:42] Caught a request!
+[Listener] [$10/06/2026 10:34:53] Caught a request!
+[Listener] [$10/06/2026 10:35:05] Caught a request!
+[Listener] [$10/06/2026 10:36:19] Caught a request!
+[Listener] [$10/06/2026 10:36:25] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:41:59] Caught a request!
+[Listener] [$10/06/2026 10:50:07] Caught a request!
+[Listener] [$10/06/2026 10:57:56] Caught a request!
+[Listener] [$10/06/2026 10:58:32] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:18] Caught a request!
+[Listener] [$10/06/2026 11:04:58] Caught a request!
+[Listener] [$10/06/2026 11:04:58] Caught a request!
+[Listener] [$10/06/2026 11:04:58] Caught a request!
+[Listener] [$10/06/2026 11:04:58] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:04:59] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:32] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+[Listener] [$10/06/2026 11:05:35] Caught a request!
+
+[Server] [10/06/2026 11:05:53] SIGINT called
+[Server] [10/06/2026 11:05:53] Shutting down gracefuly...
+[Server] [10/06/2026 11:26:22] Starting up!
+[Dispatcher] [10/06/2026 11:26:22] Starting on Task 2
+[Shutdown] [10/06/2026 11:26:22] Waiting for shutdown request on Task 1
+[Listener] [10/06/2026 11:26:22] Starting on Task 3
+[Listener] [10/06/2026 11:26:22] Listening on http://localhost:5050/
+[Listener] [$10/06/2026 11:27:13] Caught a request!
+[Task 2] Responded for file f1.txt
+[Listener] [$10/06/2026 11:27:13] Caught a request!
+[Task 2] Responded for file f3.txt
+[Listener] [$10/06/2026 11:27:13] Caught a request!
+[Task 2] Responded for file f4.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f2.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f5.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f6.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f7.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f8.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f9.txt
+[Listener] [$10/06/2026 11:27:14] Caught a request!
+[Task 2] Responded for file f10.txt
+
+[Server] [10/06/2026 11:29:12] SIGINT called
+[Server] [10/06/2026 11:29:12] Shutting down gracefuly...

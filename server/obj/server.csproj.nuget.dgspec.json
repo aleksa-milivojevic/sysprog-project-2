@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aleksa/sysprog-project-2/server/server.csproj": {}
+    "/home/aleksa/sysprog/project-2/sysprog-project-2/server/server.csproj": {}
   },
   "projects": {
-    "/home/aleksa/sysprog-project-2/server/server.csproj": {
+    "/home/aleksa/sysprog/project-2/sysprog-project-2/server/server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aleksa/sysprog-project-2/server/server.csproj",
+        "projectUniqueName": "/home/aleksa/sysprog/project-2/sysprog-project-2/server/server.csproj",
         "projectName": "server",
-        "projectPath": "/home/aleksa/sysprog-project-2/server/server.csproj",
+        "projectPath": "/home/aleksa/sysprog/project-2/sysprog-project-2/server/server.csproj",
         "packagesPath": "/home/aleksa/.nuget/packages/",
-        "outputPath": "/home/aleksa/sysprog-project-2/server/obj/",
+        "outputPath": "/home/aleksa/sysprog/project-2/sysprog-project-2/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aleksa/.nuget/NuGet/NuGet.Config"

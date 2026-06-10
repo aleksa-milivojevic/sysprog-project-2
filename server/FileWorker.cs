@@ -15,7 +15,6 @@ namespace FileUtil
         }
 
         public async Task<string> GetAvgWordLen(string fileName) {
-            string result = "";
             Console.WriteLine(fileName);
             if (fileName == "") {
                 return "[Error] File not specified...";

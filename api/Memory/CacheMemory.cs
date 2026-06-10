@@ -6,7 +6,7 @@ using Utility;
 namespace Memory
 {
     public class CacheMemory {
-        private readonly int _capacity = 12;
+        private readonly int _capacity = 8;
 
         private readonly Dictionary<string, JObject> _cacheMap = new Dictionary<string, JObject>();
         

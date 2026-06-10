@@ -131,7 +131,7 @@ namespace Services
             cacheHit = _cache.Get(file).Result;
             if (cacheHit != null) {
                 _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
-                Respond(file, cacheHit, response);
+                await Respond(file, cacheHit, response);
                 return;
             }
 
@@ -140,8 +140,8 @@ namespace Services
                 Monitor.Enter(_queuedFiles[file].Lock);
 
                 cacheHit = _cache.Get(file).Result;
-                _logger.Log($"[Thread] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
-                Respond(file, cacheHit, response);
+                _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
+                await Respond(file, cacheHit, response);
 
                 _queuedFiles[file].Tasks--;
                 if (_queuedFiles[file].Tasks == 0)
@@ -153,7 +153,7 @@ namespace Services
                 _queuedFiles.Add(file, new CacheLockObject());
                 Monitor.Enter(_queuedFiles[file].Lock);
 
-                _logger.Log($"[Thread] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
+                _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
 
                 string url = $"{_baseUrl}{file}";
 
@@ -163,21 +163,23 @@ namespace Services
                     JObject result = JObject.Parse(body);
 
                     await _cache.Set(file, result);
-                    _logger.Log($"[Thread] [{DateTime.Now}] Result stored in cache for query: '{file}'");
+                    _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] Result stored in cache for query: '{file}'");
 
-                    Respond(file, result, response);
+                    await Respond(file, result, response);
                 }
                 catch (Exception ex) {
-                    _logger.Log($"[Thread] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
-                    Respond(file, new JObject(), response);
+                    _logger.Log($"[Task {Task.CurrentId}] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
+                    await Respond(file, new JObject(), response);
                 }
                 finally {
+                    if (_queuedFiles[file].Tasks == 0)
+                        _queuedFiles.Remove(file);
                     Monitor.Exit(_queuedFiles[file].Lock);
                 }
             }
         }
 
-        private void Respond(string file, JObject? result, HttpListenerResponse response) {
+        private async Task Respond(string file, JObject? result, HttpListenerResponse response) {
             FileUtility writer = new FileUtility();
             byte[] buffer;
             if (result == null || !result.HasValues) {
@@ -189,7 +191,7 @@ namespace Services
             System.IO.Stream output = response.OutputStream;
             output.Write(buffer, 0, buffer.Length);
             output.Close();
-            writer.Write(file, result);
+            await writer.Write(file, result);
         }
         
         private async Task GracefulShutdown() {

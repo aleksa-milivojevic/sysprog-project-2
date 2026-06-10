@@ -10,3 +10,953 @@
 
 [Server] [6/9/2026 10:24:10 PM] SIGINT called
 [Server] [6/9/2026 10:24:10 PM] Shutting down gracefuly...
+[Server] [10/06/2026 10:32:53] Starting up!
+[Listener] [10/06/2026 10:32:53] Starting on Task 2
+[Shutdown] [10/06/2026 10:32:53] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 10:32:53] Starting on Task 3
+[Listener] [10/06/2026 10:32:53] Listening on http://localhost:5000/
+[Listener] [10/06/2026 10:33:24] Caught a request!
+[Task 3] [10/06/2026 10:33:24] Started for file: 'f1.txt'
+[Thread] [10/06/2026 10:33:24] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/06/2026 10:33:24] Added to cache f1.txt
+[Thread] [10/06/2026 10:33:24] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 10:33:24] Results for file f1.txt saved
+[Listener] [10/06/2026 10:33:25] Caught a request!
+[Task 3] [10/06/2026 10:33:25] Started for file: 'favicon.ico'
+[Thread] [10/06/2026 10:33:25] CACHE MISS -> 'favicon.ico' (sending API request)
+[Thread] [10/06/2026 10:33:25] Error while fetching file 'favicon.ico': Unexpected character encountered while parsing value: E. Path 'result', line 1, position 12.
+[FileUtility] [10/06/2026 10:33:25] Result null for file favicon.ico
+[Task 3] [10/06/2026 10:34:42] Started for file: 'f2.txt'
+[Listener] [10/06/2026 10:34:42] Caught a request!
+[Thread] [10/06/2026 10:34:42] CACHE MISS -> 'f2.txt' (sending API request)
+[CACHE] [10/06/2026 10:34:42] Added to cache f2.txt
+[Thread] [10/06/2026 10:34:42] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 10:34:42] Results for file f2.txt saved
+[Listener] [10/06/2026 10:34:53] Caught a request!
+[Task 3] [10/06/2026 10:34:53] Started for file: 'f3.txt'
+[Thread] [10/06/2026 10:34:53] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 10:34:53] Added to cache f3.txt
+[Thread] [10/06/2026 10:34:53] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 10:34:53] Results for file f3.txt saved
+[Listener] [10/06/2026 10:34:59] Caught a request!
+[Task 3] [10/06/2026 10:34:59] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 10:34:59] Read from cache f3.txt
+[Task 3] [10/06/2026 10:34:59] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 10:34:59] Results for file f3.txt saved
+[Listener] [10/06/2026 10:35:05] Caught a request!
+[Task 3] [10/06/2026 10:35:05] Started for file: 'f4.txt'
+[Thread] [10/06/2026 10:35:05] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 10:35:05] Added to cache f4.txt
+[Thread] [10/06/2026 10:35:05] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 10:35:05] Results for file f4.txt saved
+
+[Server] [10/06/2026 10:35:34] SIGINT called
+[Server] [10/06/2026 10:35:34] Shutting down gracefuly...
+[Server] [10/06/2026 10:36:00] Starting up!
+[Shutdown] [10/06/2026 10:36:00] Waiting for shutdown request on Task 1
+[Listener] [10/06/2026 10:36:00] Starting on Task 2
+[Dispatcher] [10/06/2026 10:36:00] Starting on Task 3
+[Listener] [10/06/2026 10:36:00] Listening on http://localhost:5000/
+[Listener] [10/06/2026 10:36:19] Caught a request!
+[Task 3] [10/06/2026 10:36:19] Started for file: 'f4.txt'
+[Thread] [10/06/2026 10:36:19] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 10:36:19] Added to cache f4.txt
+[Thread] [10/06/2026 10:36:19] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 10:36:19] Results for file f4.txt saved
+[Listener] [10/06/2026 10:36:25] Caught a request!
+[Task 3] [10/06/2026 10:36:25] Started for file: 'f5.txt'
+[Thread] [10/06/2026 10:36:25] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 10:36:25] Removed from cache f4.txt
+[CACHE] [10/06/2026 10:36:25] Added to cache f5.txt
+[Thread] [10/06/2026 10:36:25] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 10:36:25] Results for file f5.txt saved
+
+[Server] [10/06/2026 10:36:33] SIGINT called
+[Server] [10/06/2026 10:36:33] Shutting down gracefuly...
+[Server] [10/06/2026 10:40:05] Starting up!
+[Listener] [10/06/2026 10:40:05] Starting on Task 2
+[Shutdown] [10/06/2026 10:40:05] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 10:40:05] Starting on Task 3
+[Listener] [10/06/2026 10:40:05] Listening on http://localhost:5000/
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Listener] [10/06/2026 10:41:59] Caught a request!
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f7.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f7.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f7.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f2.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f2.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f2.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f2.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f4.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f4.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f4.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f5.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f5.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f5.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f3.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f3.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f3.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f6.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f6.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f6.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f1.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f1.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f1.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f8.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Added to cache f8.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f8.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f9.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Removed from cache f7.txt
+[CACHE] [10/06/2026 10:41:59] Added to cache f9.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f9.txt saved
+[Task 3] [10/06/2026 10:41:59] Started for file: 'f10.txt'
+[Thread] [10/06/2026 10:41:59] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 10:41:59] Removed from cache f2.txt
+[CACHE] [10/06/2026 10:41:59] Added to cache f10.txt
+[Thread] [10/06/2026 10:41:59] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 10:41:59] Results for file f10.txt saved
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f1.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f1.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f2.txt'
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f2.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f3.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f3.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f3.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f2.txt'
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f2.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f4.txt'
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[CACHE] [10/06/2026 10:43:21] From cache f4.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f4.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f1.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f1.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f4.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f4.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f3.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f3.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f3.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f5.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f5.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f5.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f5.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f5.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f5.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f6.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f6.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f6.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f6.txt'
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[CACHE] [10/06/2026 10:43:21] From cache f6.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f6.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f6.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f7.txt'
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f7.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f7.txt'
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f7.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f8.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f8.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f8.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f8.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f8.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f8.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f9.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f9.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f9.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f10.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f10.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f10.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f9.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f9.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f9.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:21] Caught a request!
+[Task 3] [10/06/2026 10:43:21] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 10:43:21] From cache f10.txt info is stale
+[CACHE] [10/06/2026 10:43:21] From cache f10.txt info is stale
+[Thread] [10/06/2026 10:43:21] CACHE HIT  -> 'f10.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f1.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f1.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f2.txt'
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f2.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f2.txt'
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f2.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f1.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f1.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f3.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f3.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f3.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f3.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f3.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f3.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f4.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f4.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f4.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f4.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f5.txt'
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[CACHE] [10/06/2026 10:43:50] From cache f5.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f5.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f5.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f6.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f6.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f6.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f6.txt info is stale
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[CACHE] [10/06/2026 10:43:50] From cache f6.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f6.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f5.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f5.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f5.txt' (taken from cache)
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f7.txt'
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f7.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f7.txt'
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f7.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f8.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f8.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f8.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f8.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f8.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f8.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f9.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f9.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f9.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f9.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f9.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f9.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f10.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f10.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f10.txt' (taken from cache)
+[Listener] [10/06/2026 10:43:50] Caught a request!
+[Task 3] [10/06/2026 10:43:50] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 10:43:50] From cache f10.txt info is stale
+[CACHE] [10/06/2026 10:43:50] From cache f10.txt info is stale
+[Thread] [10/06/2026 10:43:50] CACHE HIT  -> 'f10.txt' (taken from cache)
+
+[Server] [10/06/2026 10:45:16] SIGINT called
+[Server] [10/06/2026 10:45:16] Shutting down gracefuly...
+[Server] [10/06/2026 10:49:56] Starting up!
+[Shutdown] [10/06/2026 10:49:56] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 10:49:56] Starting on Task 2
+[Listener] [10/06/2026 10:49:56] Starting on Task 3
+[Listener] [10/06/2026 10:49:56] Listening on http://localhost:5000/
+[Listener] [10/06/2026 10:50:07] Caught a request!
+[Task 2] [10/06/2026 10:50:07] Started for file: 'f5.txt'
+[Thread] [10/06/2026 10:50:07] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 10:50:07] Added to cache f5.txt
+[Thread] [10/06/2026 10:50:07] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 10:50:07] Results for file f5.txt saved
+[Listener] [10/06/2026 10:50:39] Caught a request!
+[Task 2] [10/06/2026 10:50:39] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 10:50:39] From cache f5.txt info is stale
+[CACHE] [10/06/2026 10:50:39] From cache f5.txt info is stale
+[Thread] [10/06/2026 10:50:39] CACHE HIT  -> 'f5.txt' (taken from cache)
+
+[Server] [10/06/2026 10:50:58] SIGINT called
+[Server] [10/06/2026 10:50:58] Shutting down gracefuly...
+[Server] [10/06/2026 10:57:44] Starting up!
+[Listener] [10/06/2026 10:57:44] Starting on Task 2
+[Shutdown] [10/06/2026 10:57:44] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 10:57:44] Starting on Task 3
+[Listener] [10/06/2026 10:57:44] Listening on http://localhost:5000/
+[Listener] [10/06/2026 10:57:56] Caught a request!
+[Task 3] [10/06/2026 10:57:56] Started for file: 'f5.txt'
+[Task 3] [10/06/2026 10:57:56] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 10:57:56] Added to cache f5.txt
+[Task 3] [10/06/2026 10:57:56] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 10:57:56] Results for file f5.txt saved
+[Listener] [10/06/2026 10:58:32] Caught a request!
+[Task 3] [10/06/2026 10:58:32] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 10:58:32] From cache f5.txt info is stale
+[Task 3] [10/06/2026 10:58:32] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 10:58:32] Overwritten in cache f5.txt
+[Task 3] [10/06/2026 10:58:32] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 10:58:32] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f2.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[CACHE] [10/06/2026 11:04:18] Added to cache f2.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f1.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[Listener] [10/06/2026 11:04:18] Caught a request!
+[CACHE] [10/06/2026 11:04:18] Added to cache f1.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f1.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f2.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f3.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Added to cache f3.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f4.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Added to cache f4.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f3.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f4.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:04:18] From cache f5.txt info is stale
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Overwritten in cache f5.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f5.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f6.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Added to cache f6.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f7.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Added to cache f7.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f6.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f7.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f7.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f8.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Added to cache f8.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f9.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Removed from cache f1.txt
+[CACHE] [10/06/2026 11:04:18] Added to cache f9.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f8.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f9.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f10.txt'
+[Task 3] [10/06/2026 11:04:18] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:18] Removed from cache f2.txt
+[CACHE] [10/06/2026 11:04:18] Added to cache f10.txt
+[Task 3] [10/06/2026 11:04:18] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 11:04:18] Results for file f10.txt saved
+[Task 3] [10/06/2026 11:04:18] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 11:04:18] Read from cache f10.txt
+[Task 3] [10/06/2026 11:04:18] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:18] Results for file f10.txt saved
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f1.txt'
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Task 3] [10/06/2026 11:04:58] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[CACHE] [10/06/2026 11:04:58] Removed from cache f3.txt
+[CACHE] [10/06/2026 11:04:58] Added to cache f1.txt
+[Task 3] [10/06/2026 11:04:58] Result stored in cache for query: 'f1.txt'
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[FileUtility] [10/06/2026 11:04:58] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f2.txt'
+[Task 3] [10/06/2026 11:04:58] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[Listener] [10/06/2026 11:04:58] Caught a request!
+[CACHE] [10/06/2026 11:04:58] Removed from cache f4.txt
+[CACHE] [10/06/2026 11:04:58] Added to cache f2.txt
+[Task 3] [10/06/2026 11:04:58] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 11:04:58] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 11:04:58] Read from cache f1.txt
+[Task 3] [10/06/2026 11:04:58] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:58] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f3.txt'
+[Task 3] [10/06/2026 11:04:58] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:58] Removed from cache f5.txt
+[CACHE] [10/06/2026 11:04:58] Added to cache f3.txt
+[Task 3] [10/06/2026 11:04:58] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 11:04:58] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 11:04:58] Read from cache f3.txt
+[Task 3] [10/06/2026 11:04:58] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:58] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:04:58] Read from cache f2.txt
+[Task 3] [10/06/2026 11:04:58] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:58] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f4.txt'
+[Task 3] [10/06/2026 11:04:58] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:58] Removed from cache f6.txt
+[CACHE] [10/06/2026 11:04:58] Added to cache f4.txt
+[Task 3] [10/06/2026 11:04:58] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 11:04:58] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 11:04:58] Read from cache f4.txt
+[Task 3] [10/06/2026 11:04:58] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:58] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:04:58] Started for file: 'f5.txt'
+[Task 3] [10/06/2026 11:04:58] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f7.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f5.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f5.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f6.txt'
+[Task 3] [10/06/2026 11:04:59] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f8.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f6.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f6.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f7.txt'
+[Task 3] [10/06/2026 11:04:59] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f9.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f7.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f7.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f7.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f8.txt'
+[Task 3] [10/06/2026 11:04:59] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f10.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f8.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f9.txt'
+[Task 3] [10/06/2026 11:04:59] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f1.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f9.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f8.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f9.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f10.txt'
+[Task 3] [10/06/2026 11:04:59] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 11:04:59] Removed from cache f3.txt
+[CACHE] [10/06/2026 11:04:59] Added to cache f10.txt
+[Task 3] [10/06/2026 11:04:59] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 11:04:59] Results for file f10.txt saved
+[Task 3] [10/06/2026 11:04:59] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 11:04:59] Read from cache f10.txt
+[Task 3] [10/06/2026 11:04:59] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:04:59] Results for file f10.txt saved
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:05:32] From cache f2.txt info is stale
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[CACHE] [10/06/2026 11:05:32] Overwritten in cache f2.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f1.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[Listener] [10/06/2026 11:05:32] Caught a request!
+[CACHE] [10/06/2026 11:05:32] Removed from cache f4.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f1.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f1.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f3.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f5.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f3.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f3.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f2.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f4.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f6.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f4.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f5.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f7.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f5.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f5.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f4.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f6.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f8.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f6.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f6.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f7.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f9.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f7.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f7.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f7.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f8.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f10.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f8.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f8.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f9.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f1.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f9.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f10.txt'
+[Task 3] [10/06/2026 11:05:32] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:32] Removed from cache f3.txt
+[CACHE] [10/06/2026 11:05:32] Added to cache f10.txt
+[Task 3] [10/06/2026 11:05:32] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 11:05:32] Results for file f10.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f9.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:05:32] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 11:05:32] Read from cache f10.txt
+[Task 3] [10/06/2026 11:05:32] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:32] Results for file f10.txt saved
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f1.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f2.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f1.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f1.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[FileUtility] [10/06/2026 11:05:35] Results for file f1.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f2.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[Listener] [10/06/2026 11:05:35] Caught a request!
+[CACHE] [10/06/2026 11:05:35] Removed from cache f5.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f2.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f2.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f2.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f3.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f4.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f3.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f3.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f3.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f4.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f6.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f4.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f5.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f7.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f5.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f4.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f4.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f5.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f5.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f6.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f8.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f6.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f6.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f6.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f7.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f9.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f7.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f7.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f7.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f7.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f8.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f10.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f8.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f8.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f8.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f9.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f1.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f9.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f9.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f9.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f10.txt'
+[Task 3] [10/06/2026 11:05:35] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 11:05:35] Removed from cache f2.txt
+[CACHE] [10/06/2026 11:05:35] Added to cache f10.txt
+[Task 3] [10/06/2026 11:05:35] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 11:05:35] Results for file f10.txt saved
+[Task 3] [10/06/2026 11:05:35] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 11:05:35] Read from cache f10.txt
+[Task 3] [10/06/2026 11:05:35] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:05:35] Results for file f10.txt saved
+
+[Server] [10/06/2026 11:05:45] SIGINT called
+[Server] [10/06/2026 11:05:45] Shutting down gracefuly...
+[Server] [10/06/2026 11:26:51] Starting up!
+[Shutdown] [10/06/2026 11:26:51] Waiting for shutdown request on Task 1
+[Dispatcher] [10/06/2026 11:26:51] Starting on Task 2
+[Listener] [10/06/2026 11:26:51] Starting on Task 3
+[Listener] [10/06/2026 11:26:51] Listening on http://localhost:5000/
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Task 2] [10/06/2026 11:27:13] Started for file: 'f1.txt'
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Task 2] [10/06/2026 11:27:13] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[Listener] [10/06/2026 11:27:13] Caught a request!
+[CACHE] [10/06/2026 11:27:13] Added to cache f1.txt
+[Task 2] [10/06/2026 11:27:13] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/06/2026 11:27:13] Results for file f1.txt saved
+[Task 2] [10/06/2026 11:27:13] Started for file: 'f1.txt'
+[CACHE] [10/06/2026 11:27:13] Read from cache f1.txt
+[Task 2] [10/06/2026 11:27:13] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:13] Results for file f1.txt saved
+[Task 2] [10/06/2026 11:27:13] Started for file: 'f3.txt'
+[Task 2] [10/06/2026 11:27:13] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:13] Added to cache f3.txt
+[Task 2] [10/06/2026 11:27:13] Result stored in cache for query: 'f3.txt'
+[FileUtility] [10/06/2026 11:27:13] Results for file f3.txt saved
+[Task 2] [10/06/2026 11:27:13] Started for file: 'f4.txt'
+[Task 2] [10/06/2026 11:27:13] CACHE MISS -> 'f4.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f4.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f4.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f4.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f2.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f2.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f2.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f2.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f2.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f2.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f2.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f3.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f3.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f3.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f4.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f4.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f4.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f5.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f5.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f5.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f5.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f5.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f5.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f5.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f6.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f6.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f6.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f6.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f6.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f6.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f6.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f7.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f7.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f7.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f7.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f7.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f7.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f7.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f8.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Added to cache f8.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f8.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f8.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f8.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f8.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f8.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f9.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Removed from cache f1.txt
+[CACHE] [10/06/2026 11:27:14] Added to cache f9.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f9.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f9.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f9.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f9.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f9.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f10.txt'
+[Task 2] [10/06/2026 11:27:14] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [10/06/2026 11:27:14] Removed from cache f2.txt
+[CACHE] [10/06/2026 11:27:14] Added to cache f10.txt
+[Task 2] [10/06/2026 11:27:14] Result stored in cache for query: 'f10.txt'
+[FileUtility] [10/06/2026 11:27:14] Results for file f10.txt saved
+[Task 2] [10/06/2026 11:27:14] Started for file: 'f10.txt'
+[CACHE] [10/06/2026 11:27:14] Read from cache f10.txt
+[Task 2] [10/06/2026 11:27:14] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [10/06/2026 11:27:14] Results for file f10.txt saved
+
+[Server] [10/06/2026 11:27:41] SIGINT called
+[Server] [10/06/2026 11:27:41] Shutting down gracefuly...

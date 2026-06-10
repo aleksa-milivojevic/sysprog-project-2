@@ -117,6 +117,7 @@ namespace ProjectServer
                 output.Write(buffer, 0, buffer.Length);
                 output.Close();
             }
+            _logger.Log($"[Task {Task.CurrentId}] Responded for file {fileName}");
         }
         
         private async Task GracefulShutdown() {

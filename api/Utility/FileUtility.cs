@@ -1,4 +1,5 @@
 using Newtonsoft.Json.Linq;
+using System;
 
 namespace Utility
 {
@@ -13,7 +14,7 @@ namespace Utility
             _writeLock = new object();
         }
 
-        public void Write(string file, JObject result) {
+        public async Task Write(string file, JObject result) {
             string path = $"query-results.txt";
             if (!result.HasValues) {
                 _logger.Log($"[FileUtility] [{DateTime.Now}] Result null for file {file}");
@@ -21,7 +22,8 @@ namespace Utility
             }
 
             Monitor.Enter(_writeLock);
-            string content = $"\nFile: {file}\n"  +
+            string content = $"\nTimeStamp: {DateTime.Now}\n" +
+                                $"File: {file}\n"  +
                                 $"Result: {result["result"]}\n";
             try {
                 File.AppendAllText(path, content);

@@ -1,0 +1,329 @@
+
+File: f5.txt
+Result: 6.55
+
+File: f5.txt
+Result: 6.55
+
+File: f5.txt
+Result: 6.55
+
+File: f2.txt
+Result: 5.51
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f3.txt
+Result: 6.15
+
+File: f4.txt
+Result: 7.23
+
+File: f3.txt
+Result: 6.15
+
+File: f4.txt
+Result: 7.23
+
+File: f5.txt
+Result: 6.55
+
+File: f5.txt
+Result: 6.55
+
+File: f6.txt
+Result: 8.27
+
+File: f7.txt
+Result: 7.06
+
+File: f6.txt
+Result: 8.27
+
+File: f7.txt
+Result: 7.06
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f10.txt
+Result: 7.5
+
+File: f10.txt
+Result: 7.5
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f1.txt
+Result: 7.52
+
+File: f3.txt
+Result: 6.15
+
+File: f3.txt
+Result: 6.15
+
+File: f2.txt
+Result: 5.51
+
+File: f4.txt
+Result: 7.23
+
+File: f4.txt
+Result: 7.23
+
+File: f5.txt
+Result: 6.55
+
+File: f5.txt
+Result: 6.55
+
+File: f6.txt
+Result: 8.27
+
+File: f6.txt
+Result: 8.27
+
+File: f7.txt
+Result: 7.06
+
+File: f7.txt
+Result: 7.06
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f10.txt
+Result: 7.5
+
+File: f10.txt
+Result: 7.5
+
+File: f2.txt
+Result: 5.51
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f3.txt
+Result: 6.15
+
+File: f3.txt
+Result: 6.15
+
+File: f2.txt
+Result: 5.51
+
+File: f4.txt
+Result: 7.23
+
+File: f5.txt
+Result: 6.55
+
+File: f5.txt
+Result: 6.55
+
+File: f4.txt
+Result: 7.23
+
+File: f6.txt
+Result: 8.27
+
+File: f6.txt
+Result: 8.27
+
+File: f7.txt
+Result: 7.06
+
+File: f7.txt
+Result: 7.06
+
+File: f8.txt
+Result: 7.48
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f10.txt
+Result: 7.5
+
+File: f9.txt
+Result: 8.71
+
+File: f10.txt
+Result: 7.5
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f2.txt
+Result: 5.51
+
+File: f3.txt
+Result: 6.15
+
+File: f3.txt
+Result: 6.15
+
+File: f4.txt
+Result: 7.23
+
+File: f5.txt
+Result: 6.55
+
+File: f4.txt
+Result: 7.23
+
+File: f5.txt
+Result: 6.55
+
+File: f6.txt
+Result: 8.27
+
+File: f6.txt
+Result: 8.27
+
+File: f7.txt
+Result: 7.06
+
+File: f7.txt
+Result: 7.06
+
+File: f8.txt
+Result: 7.48
+
+File: f8.txt
+Result: 7.48
+
+File: f9.txt
+Result: 8.71
+
+File: f9.txt
+Result: 8.71
+
+File: f10.txt
+Result: 7.5
+
+File: f10.txt
+Result: 7.5
+
+TimeStamp: 10/06/2026 11:27:13
+File: f1.txt
+Result: 7.52
+
+TimeStamp: 10/06/2026 11:27:13
+File: f1.txt
+Result: 7.52
+
+TimeStamp: 10/06/2026 11:27:13
+File: f3.txt
+Result: 6.15
+
+TimeStamp: 10/06/2026 11:27:14
+File: f4.txt
+Result: 7.23
+
+TimeStamp: 10/06/2026 11:27:14
+File: f2.txt
+Result: 5.51
+
+TimeStamp: 10/06/2026 11:27:14
+File: f2.txt
+Result: 5.51
+
+TimeStamp: 10/06/2026 11:27:14
+File: f3.txt
+Result: 6.15
+
+TimeStamp: 10/06/2026 11:27:14
+File: f4.txt
+Result: 7.23
+
+TimeStamp: 10/06/2026 11:27:14
+File: f5.txt
+Result: 6.55
+
+TimeStamp: 10/06/2026 11:27:14
+File: f5.txt
+Result: 6.55
+
+TimeStamp: 10/06/2026 11:27:14
+File: f6.txt
+Result: 8.27
+
+TimeStamp: 10/06/2026 11:27:14
+File: f6.txt
+Result: 8.27
+
+TimeStamp: 10/06/2026 11:27:14
+File: f7.txt
+Result: 7.06
+
+TimeStamp: 10/06/2026 11:27:14
+File: f7.txt
+Result: 7.06
+
+TimeStamp: 10/06/2026 11:27:14
+File: f8.txt
+Result: 7.48
+
+TimeStamp: 10/06/2026 11:27:14
+File: f8.txt
+Result: 7.48
+
+TimeStamp: 10/06/2026 11:27:14
+File: f9.txt
+Result: 8.71
+
+TimeStamp: 10/06/2026 11:27:14
+File: f9.txt
+Result: 8.71
+
+TimeStamp: 10/06/2026 11:27:14
+File: f10.txt
+Result: 7.5
+
+TimeStamp: 10/06/2026 11:27:14
+File: f10.txt
+Result: 7.5
